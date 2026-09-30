@@ -1,0 +1,16 @@
+.chart-card { min-height: 340px; }
+.chart-card h2 { margin-bottom: 5px; }
+.chart-card .chart-container { position: relative; height: 255px; width: 100%; margin-top: 24px; }
+.chart-card.wide .chart-container { height: 310px; }
+.chart-caption { color: var(--muted); font-size: .75rem; margin: 11px 0 0; }
+.profile-fields { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.profile-fields.two { grid-template-columns: repeat(2, 1fr); }
+.profile-fields .metric-label { margin-bottom: 10px; }
+.profile-fields strong { font-size: .96rem; }
+.steps-list { margin: 0; padding-left: 20px; display: grid; gap: 9px; font-size: .88rem; }
+.analysis-intro { max-width: 580px; }
+.analysis-result { margin-top: 22px; }
+.result-number { color: var(--blue); font-size: 1.8rem; font-weight: 800; margin: 15px 0 4px; }
+.result-details { display: grid; gap: 14px; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 23px; }
+.result-details > div { display: flex; justify-content: space-between; gap: 10px; font-size: .84rem; }
+.result-details span { color: var(--muted); }
