@@ -1,0 +1,7 @@
+.dialog-backdrop { position: fixed; inset: 0; z-index: 90; background: #102d4875; display: grid; place-items: center; padding: 20px; }
+.dialog { width: min(100%, 590px); max-height: min(92vh, 850px); overflow: auto; background: white; border-radius: 18px; box-shadow: 0 20px 65px #112d4855; padding: 31px; }
+.dialog h2 { font-size: 1.35rem; margin: 0 0 7px; }
+.dialog p { font-size: .9rem; color: var(--muted); }
+.dialog-form { display: grid; gap: 16px; margin-top: 21px; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; }
+.dialog-actions .button { flex: 1; }
